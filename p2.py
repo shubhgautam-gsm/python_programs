@@ -5,7 +5,7 @@ HOD_CS = [10,"Mr. Holding"]
 HOD_IT= [11, "Mr. Bewon"]
 
 print("printing employee data...")
-print("Name: %s, ID: %d, Country: %s"%(emp[0],emp[1],emp[2]))
+print("Name: %s, ID: %s, Country: %s"%(emp[0],Dep1[0],emp[-1]))
 print("printing departments...")
 print("Department 1:\nName: %s, ID: %d\nDepartment 2:\nName: %s, ID: %s"% (Dep1[0],Dep2[1], Dep2[0], Dep2[1]))
 print("HOD Details....")
