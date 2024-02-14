@@ -33,8 +33,8 @@ else:
   print('mult and add is:',multi,' and ',addi)
  elif mult==calc_chs and sub==calc_chs2:
   print('mult and sub is:',multi,' and ',subi)
- elif mult==calc_chs and mult==calc_chs2:
-  print('mult and div is:',multi,' and ',divi)
+ elif mult==calc_chs and div==calc_chs2:
+  print('mult and div is:',divi,' and ',divi)
  elif add==calc_chs and add==calc_chs2:
   print('add and div is:',addi,' and ',divi)
  elif add==calc_chs and sub==calc_chs2:
