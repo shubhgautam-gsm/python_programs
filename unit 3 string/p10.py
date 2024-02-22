@@ -7,4 +7,5 @@ print('is last is "."',isends)
 isends = str.endswith("t")
 print('is last is "t"',isends)
 
-str2 = str.startswith("W")
+str = str.startswith("H")
+print('is start with "H"',str)
