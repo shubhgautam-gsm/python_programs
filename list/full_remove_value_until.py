@@ -3,7 +3,6 @@ for i in my_list:  # Iterate from 0 to num_elements - 1
      if i==1:
          print(my_list.remove(i))
 
-
 print(my_list)
 
 
