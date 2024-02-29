@@ -1,6 +1,6 @@
 #Python function to calculate the sum of two variables defining the function
 def sum (a,b):
-return a+b;
+ return a+b
 #taking values from the user
 a = int(input("Enter a: "))
 b = int(input("Enter b: "))
