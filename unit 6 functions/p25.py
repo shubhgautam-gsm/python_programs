@@ -4,13 +4,10 @@
 x = 8
 print('IS CALLABLE x',callable(x))
 
-
 def x():
  a=10
  b=20
  c=a+b
  return c
  
- 
-    
 print('IS CALLABLE x()',callable(x))
