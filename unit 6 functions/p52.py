@@ -1,4 +1,6 @@
-# Calling function
-att = dir()
-# Displaying result
-print(att)
+class Person:
+  name = "John"
+  age = 36
+  country = "Norway"
+
+print(dir(Person))
