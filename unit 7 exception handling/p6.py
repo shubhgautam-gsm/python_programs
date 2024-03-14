@@ -16,7 +16,7 @@ try:
     a = int(input("Enter a: "))
     b = int(input("Enter b: "))
     c = a / b
-    print("a / b = %d" % c)
+    print("a / b = %d" %c)
 except ValueError:
     print("Please enter valid integers for 'a' and 'b'.")
 except ZeroDivisionError:
