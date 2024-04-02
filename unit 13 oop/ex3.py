@@ -1,13 +1,12 @@
 # Abstraction Example
 
-from abc import ABC, abstractmethod
 
-class Vehicle(ABC):
-    @abstractmethod
+
+class Vehicle():
+
     def start(self):
         pass
 
-    @abstractmethod
     def stop(self):
         pass
 
@@ -22,8 +21,7 @@ class Plane(Vehicle):
     def start(self):
         print("Plane is starting")
 
-    def stop(self):
-        print("Plane is stopping")
+
 
 # Encapsulation Example
 
