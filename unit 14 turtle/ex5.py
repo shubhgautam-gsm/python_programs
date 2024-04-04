@@ -1,5 +1,4 @@
 import turtle
-
 # Setup
 screen = turtle.Screen()
 screen.setup(width=600, height=400)
@@ -11,6 +10,12 @@ t = turtle.Turtle()
 t1 = turtle.Turtle()
 t_1 = turtle.Turtle()
 t2 = turtle.Turtle()
+
+t.hideturtle()
+t0.hideturtle()
+t1.hideturtle()
+t2.hideturtle()
+t_1.hideturtle()
 
 t0.speed(2)
 t0.color("red")
@@ -28,7 +33,6 @@ t_1.speed(2)
 t_1.color("green")
 t_1.width(27)
 
-
 # Draw the "G"
 t0.circle(100, -200) #(100=radius(size ),-200(forward) opposite'-')
 t.circle(100, -80)
@@ -36,14 +40,11 @@ t1.circle(100, -40)
 
 t_1.circle(100, 20)
 t2.circle(100, 90)
-t2.left(90)
-t2.forward(90)
-
-
-
+t2.right(90)
+t2.backward(110)
 
 # Hide the turtle
-t.hideturtle()
+
 
 # Keep window open
 screen.mainloop()
