@@ -21,7 +21,7 @@ print("Square= ", cal.square(x))
 
 # Reload the module again
 cal = importlib.reload(cal)
-
+5
 # Perform division again
 a, b = get_input()
 print("Modified Div= ", cal.div(a, b))

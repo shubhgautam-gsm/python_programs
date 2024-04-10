@@ -1,0 +1,12 @@
+data = ["Rajkot", "Surat", "Baroda", "Bhuj", "Jamnagar", "Ahamdabad", "Morbi", "Rajkot"]
+print(data)
+data.pop()
+print(data)
+data.remove("Surat")
+print(data)
+data.append("kutch")
+print(data)
+data.reverse()
+print(data)
+data.sort()
+print(data)
