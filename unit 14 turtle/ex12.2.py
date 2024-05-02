@@ -7,6 +7,6 @@ pen.speed(1000)
 #pen.goto(200, 200)
 pen.color("Red")
 for x in range(1, 50):
-    pen.backward(200)
-    pen.left(170)
+    pen.backward(100)
+    pen.left(250)
 turtle.done()

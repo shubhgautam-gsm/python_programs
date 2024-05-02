@@ -1,7 +1,7 @@
 import turtle
 
-window = turtle.Screen()
-window.screensize(500, 500)
+
+turtle.Screen().setup(width=600, height=400)
 pen = turtle.Turtle()
 
 pen.color("red")

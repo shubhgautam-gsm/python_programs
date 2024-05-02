@@ -1,5 +1,5 @@
 import mysql.connector
-from MySQLdb._mysql import connection
+
 try:
     connection = mysql.connector.connect(host="localhost", user="root", passwd="",
     database="pydb")

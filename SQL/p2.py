@@ -1,11 +1,13 @@
 import mysql.connector
 
-# Create the connection object
-myconn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="google",
-    database="mydb"  # optional: specify database name if connecting to a specific database
-)
+try:
+    connection = mysql.connector.connect(host="localhost", user="root", passwd="")
+    print("Database Connected")
+    myCursor = connection.cursor()
+    query = "create database pydb"
+    result = myCursor.execute(query)
+    print("Database Created")
 
-print(myconn)  # Print the connection object
+    connection.close()
+except Exception as err:
+    print("Error is ",err)

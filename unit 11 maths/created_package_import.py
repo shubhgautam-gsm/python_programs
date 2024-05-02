@@ -1,6 +1,6 @@
 import maths
 
-x = 16
+x = 22
 print("Base 10 logarithm of 13:", maths.log10(x))
 print("Base 10 logarithm of 13:", maths.log20(x))
 

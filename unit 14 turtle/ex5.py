@@ -2,7 +2,7 @@ import turtle
 # Setup
 screen = turtle.Screen()
 screen.setup(width=600, height=400)
-screen.bgcolor("white")
+screen.bgcolor("black")
 
 # Turtle
 t0 = turtle.Turtle()

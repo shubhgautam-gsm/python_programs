@@ -10,10 +10,10 @@ t = turtle.Turtle()
 t1 = turtle.Turtle()
 
 
-t.speed(2)
+t.speed(11)
 t.color("yellow")
 t.width(25)
-t1.speed(2)
+t1.speed(11)
 t1.color("blue")
 t1.width(10)
 
@@ -33,7 +33,7 @@ t1.circle(10,360)
 t1.penup()
 t1.goto(-30,30)
 t1.pendown()
-t1.circle(30,90)
+t1.circle(60,120)
 
 # Hide the turtle
 t.hideturtle()
