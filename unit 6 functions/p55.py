@@ -6,3 +6,4 @@ def filterdata(x):
 result= filter(filterdata,(1,2,6,7,8,9))
 # Displaying result
 print(list(result))
+  

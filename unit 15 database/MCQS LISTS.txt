@@ -1,0 +1,121 @@
+# Simple calculator using basic arithmetic operations
+def calculator(num1, operator, num2):
+  if operator == '+':
+    return num1 + num2
+  elif operator == '-':
+    return num1 - num2
+  elif operator == '*':
+    return num1 * num2
+  elif operator == '/':
+    if num2 == 0:
+      raise ZeroDivisionError("Division by zero")
+    else:
+      return num1 / num2
+  else:
+    print("Invalid operator")
+
+# Get user input and perform calculation
+while True:
+  try:
+    num1 = float(input("Enter first number: "))
+    operator = input("Enter operator (+, -, *, /): ")
+    num2 = float(input("Enter second number: "))
+    result = calculator(num1, operator, num2)
+    print("Result:", result)
+    break
+  except ValueError:
+    print("Invalid input. Please enter numbers only.")
+
+
+
+
+# Simple class representing a bank account
+class BankAccount:
+  def __init__(self, name, balance):
+    self.name = name
+    self.balance = balance
+
+  def deposit(self, amount):
+    self.balance += amount
+
+  def withdraw(self, amount):
+    if amount > self.balance:
+      print("Insufficient funds")
+    else:
+      self.balance -= amount
+
+# Create an account and perform operations
+account = BankAccount("John Doe", 1000)
+account.deposit(500)
+account.withdraw(800)
+print(f"Account balance: {account.balance}")
+
+
+
+
+# Read a file line by line and count the number of words
+filename = "sample.txt"
+word_count = 0
+
+with open(filename, 'r') as file:
+  for line in file:
+    words = line.split()
+    word_count += len(words)
+
+print(f"Word count in {filename}: {word_count}")
+
+
+import re
+
+# Extract email addresses from a text string
+text = "This is a sample text containing email addresses like john.doe@example.com and jane.smith@company.net."
+
+email_pattern = r"\w+@\w+\.\w+"
+emails = re.findall(email_pattern, text)
+
+print("Extracted email addresses:", emails)
+
+
+# Check if a number is even and raise an exception if not
+def check_even(number):
+  if number % 2 != 0:
+    raise ValueError("Number is not even")
+
+# Get user input and check the number
+try:
+  num = int(input("Enter a number: "))
+  check_even(num)
+  print("The number is even")
+except ValueError as e:
+  print(e)
+
+
+
+import sqlite3
+
+# Create a database connection and table
+conn = sqlite3.connect("mydatabase.db")
+cursor = conn.cursor()
+
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  email TEXT UNIQUE
+)
+""")
+
+# Insert data into the table
+name = "Alice"
+email = "alice@example.com"
+cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", (name, email))
+conn.commit()
+
+# Read data from the table
+cursor.execute("SELECT * FROM users")
+rows = cursor.fetchall()
+for row in rows:
+  print(f"ID: {row[0]}, Name: {row[1]}, Email: {row[2]}")
+
+# Close the connection
+conn.close()

@@ -1,0 +1,351 @@
+************PYTHON TEST*********
+CHOOSE THE CORRECT OPTION
+
+1. What is the correct way to declare a variable in Python?
+(a) var_name = value
+(b) let name = value 
+(c) create name = value
+(d) define name = value
+
+2. Which of the following is NOT a valid data type in Python?
+(a) Integer 
+(b) Float
+(c) String
+(d) Boolean
+
+3. What is the output of the following code: print(type("Hello"))?
+(a) <class 'int'>
+(b) <class 'float'>
+(c) <class 'str'> 
+(d) <class 'bool'>
+
+4. Which operator is used for string concatenation in Python?
+(a) +
+(b) *
+(c) &
+(d) |
+
+5. What is the correct way to access the third element of a list in Python (assuming indexing starts from 0)?
+(a) list[2]
+(b) list(2)
+(c) list.get(2)
+(d) list[3]
+
+6. What is the difference between a list and a tuple in Python?
+(a) Lists are mutable, tuples are immutable. 
+(b) Tuples are mutable, lists are immutable.
+(c) Lists are faster for accessing elements, tuples are faster for searching.
+(d) Tuples are faster for accessing elements, lists are faster for searching.
+
+7. Which statement is NOT true about Python syntax?(multiple possible)
+(a) Python uses indentation to define code blocks. 
+(b) Python requires semicolons at the end of each statement. 
+(c) Python is case-sensitive.
+(d) Python allows comments using the # symbol.
+
+8. What is the correct way to print a string in Python?
+(a) print("Hello")
+(b) echo "Hello"
+(c) display("Hello")
+(d) printf("Hello")
+
+9. What operator is used for integer division in Python (resulting in an integer quotient)?
+(a) / 
+(b) // 
+(c) %
+(d) *
+
+10. Which operator is used to check if two values are not equal in Python?
+(a) =
+(b) ==
+(c) != 
+(d) =:=
+
+11 .What is the output of the following code: print(type(10.5))?
+(a) <class 'int'>
+(b) <class 'float'> 
+(c) <class 'str'>
+(d) <class 'bool'>
+
+12. What is the correct way to define a function in Python?
+(a) define function_name():
+code
+(b) create function_name():
+code
+(c) def function_name():
+code
+(d) function function_name():
+code
+
+13. How do you call a function in Python?
+(a) function_name() 
+(b) call function_name()
+(c) execute function_name()
+(d) run function_name()
+
+14. What is the correct way to comment out a single line of code in Python?
+(a) // comment
+(b) # comment 
+(c) /* comment /
+(d) // comment *//
+
+15. Which data type is used to store True or False values in Python?
+(a) Integer
+(b) Float
+(c) String
+(d) Boolean 
+
+16. What is the correct syntax for a for loop in Python?
+(a) for i in range(start, end):
+code
+(b) for i in range(end):
+code 
+(c) for i = start: end:
+code
+(d) for i in start: end:
+code
+
+17. What is the output of the following code: for i in range(3): print(i)?
+(a) 0 1 2
+(b) 1 2 3 
+(c) 0 1 3
+(d) 1 2
+
+18. Which keyword is used to break out of a loop in Python?
+(a) exit
+(b) break 
+(c) stop
+(d) quit
+
+19. What is the correct syntax for an if-else statement in Python?
+(a) if condition: then
+code
+else:
+code
+(b) if condition:
+code
+else:
+code 
+(c) if condition: code
+else: code
+(d) if(condition): code else code
+
+20. What is the output of the following code: x = 5; if x > 3: print("Greater") else: print("Less")?
+(a) Less
+(b) Greater 
+(c) Error
+(d) Nothing
+
+21. What is the difference between a while loop and a for loop in Python?
+(a) while loops iterate a fixed number of times, for loops iterate based on a condition.
+(b) for loops iterate a fixed number of times, while loops iterate based on a condition. 
+(c) while loops are faster than for loops.
+(d) for loops are faster than while loops.
+
+22. Which operator is used for logical AND in Python?
+(a) &
+(b) ||
+(c) &&
+(d) |
+
+23. What is the output of the following code: x = 10; y = 5; if x > y and x < 15: print("True") else: print("False")?
+(a) True 
+(b) False
+(c) Error
+(d) Nothing
+
+24. Which keyword is used to continue to the next iteration of a loop in Python?
+(a) next
+(b) continue
+(c) skip
+(d) proceed
+
+25. What is the correct way to define an infinite loop in Python?
+(a) for i in range(100):
+code
+(b) while True:
+code
+(c) while 1:
+code
+(d) loop forever:
+code
+
+26. What is the correct syntax for an elif statement in Python?
+(a) if condition1:
+code
+elif condition2:
+code
+(b) elif condition1:
+code 
+else:
+code
+(c) else if condition2:
+code
+(d) ifelse condition1:
+code
+
+27. What is the output of the following code: x = 2; if x == 2 or x == 3: print("Yes") else: print("No")?
+(a) Yes
+(b) No
+(c) Error
+(d) Nothing
+
+28. Which operator is used for logical OR in Python?
+(a) &
+(b) || 
+(c) &&
+(d) |
+
+29. What is the correct way to nest an if statement within another if statement?
+(a) if condition1:
+if condition2:
+code
+(b) if condition1:
+if condition2:
+code 
+(c) if(condition1):
+if(condition2):
+code
+(d) if condition1 then if condition2:
+code
+
+30. What is the difference between an if statement and an elif statement?
+(a) if is used for the first condition, elif is used for subsequent conditions in a chain. 
+(b) elif is used for the first condition, if is used for subsequent conditions in a chain.
+(c) if checks multiple conditions, elif checks only one condition.
+(d) elif checks multiple conditions, if checks only one condition.
+
+31. What keyword is used to define a function in Python?
+(a) define
+(b) create
+(c) def 
+(d) function
+
+32. What is the correct syntax for calling a function in Python?
+(a) function_name() 
+(b) call function_name()
+(c) execute function_name()
+(d) run function_name()
+
+33. What is the purpose of the return statement in a function?
+(a) To define the function name
+(b) To assign a value to a variable within the function
+(c) To pass arguments to the function
+(d) To return a value from the function to the caller 
+
+34. What is the output of the following code:
+def square(x):
+  return x * x
+
+result = square(5)
+print(result)
+
+(a) 5
+(b) 25 
+(c) None
+(d) Error
+
+35. What are arguments in a Python function?
+(a) Variables defined within the function
+(b) Values passed to the function when it is called 
+(c) The return value of the function
+(d) Keywords used to define the function
+
+36. What is the difference between a function with parameters and a function without parameters?
+(a) Functions with parameters cannot return values, while functions without parameters can.
+(b) Functions without parameters cannot be called, while functions with parameters can.
+(c) Functions with parameters are used for specific tasks, while functions without parameters are used for general-purpose tasks.
+(d) Functions with parameters receive input values, while functions without parameters do not.
+
+37. What is a docstring in Python?
+(a) A multi-line comment that describes the function's purpose and usage.
+(b) A special variable that stores the function's name.
+(c) A keyword used to define a function.
+(d) The return type of the function.
+
+38. What is the output of the following code:
+def is_even(number):
+  if number % 2 == 0:
+    return True
+  else:
+    return False
+
+print(is_even(7))
+
+(a) True
+(b) False 
+(c) None
+(d) Error
+
+39. What is the difference between a local variable and a global variable in Python?
+(a) Local variables are defined within a function, while global variables are defined outside of any function.
+(b) Global variables are used for storing data, while local variables are used for performing calculations.
+(c) Local variables can be accessed from anywhere in the program, while global variables can only be accessed within the function where they are defined.
+(d) Local variables are always mutable, while global variables are always immutable.
+
+40. What is recursion in Python?
+(a) A function that calls itself directly or indirectly. 
+(b) A way to pass arguments to a function.
+(c) A loop that iterates a fixed number of times.
+(d) A conditional statement that checks multiple conditions.
+
+41. What is a lambda function in Python?
+(a) A short, anonymous function defined using the lambda keyword. 
+(b) A function that can take any number of arguments.
+(c) A function that must always return a value.
+(d) A function that cannot be called more than once.
+
+42. What is the correct way to define a default argument value in a Python function?
+(a) By assigning a value to the parameter directly in the function definition. 
+(b) By using the return statement with the default value.
+(c) By passing the default value as an argument when calling the function.
+(d) By using a separate variable to store the default value.
+
+43. What are the benefits of using functions in Python?
+(a) They improve code readability and maintainability.
+(b) They promote code reusability.
+(c) They help break down complex problems into smaller, manageable tasks.
+(d) All of the above. 
+
+44. How can you check if a variable is defined within a function in Python?
+(a) By using the global keyword.
+(b) By using the type() function.
+(c) By using the locals() function. 
+(d) By checking the function's docstring.
+
+45. What is the correct way to modify a global variable from within a function?
+(a) By using the global keyword before the variable name.
+(b) By directly assigning a new value to the variable.
+(c) Returning the new value from the function.
+(d) It is not possible to modify a global variable from within a function.
+
+46. What is a module in Python?
+(a) A collection of functions, classes, and variables organized in a single Python file with a .py extension. 
+(b) A built-in data structure in Python.
+(c) A keyword used to define functions.
+(d) A way to create comments in Python code.
+
+47. What is the correct syntax to import an entire module in Python?
+(a) import module_name
+(b) use module_name
+(c) include module_name
+(d) require module_name
+
+48. What is the correct syntax to import a specific function from a module?
+(a) import module_name.function_name 
+(b) import function_name from module_name
+(c) use module_name.function_name
+(d) require module_name.function_name
+
+49. What is the difference between a module and a package in Python?
+(a) Modules are standalone files, while packages are collections of modules organized in a hierarchical directory structure.
+(b) Modules contain functions, while packages contain classes.
+(c) Packages are more complex than modules.
+(d) There is no practical difference between them.
+
+50. What is the init.py file used for in a package?
+(a) It defines the package name.
+(b) It contains the main code for the package. 
+(c) It initializes the package when it is imported.
+(d) It stores all the documentation for the package.
+

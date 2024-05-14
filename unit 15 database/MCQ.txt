@@ -1,0 +1,9 @@
+Basics (syntax, variables, data types, operators)
+Control flow (loops, conditional statements)
+Functions
+Modules and packages
+Object-oriented programming
+Data structures (lists, tuples, dictionaries)
+File I/O
+Regular expressions
+Exceptions

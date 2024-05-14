@@ -3,21 +3,23 @@ import random
 
 def draw_face():
     # Set up turtle
-    turtle.penup()
     turtle.speed(0)  # Set maximum drawing speed
     turtle.width(2)  # Set pen width
 
     # Draw face
-    turtle.goto(0, -100)
+    turtle.penup()
+    turtle.goto(-100, 0)
     turtle.pendown()
     turtle.fillcolor("peachpuff")
     turtle.begin_fill()
-    turtle.circle(100)
+    for _ in range(2):
+        turtle.circle(100, 180)
+        turtle.circle(100/3, 180)
     turtle.end_fill()
 
     # Draw left eye
     turtle.penup()
-    turtle.goto(-40, 20)
+    turtle.goto(-40, 50)
     turtle.pendown()
     turtle.fillcolor("white")
     turtle.begin_fill()
@@ -26,7 +28,7 @@ def draw_face():
 
     # Draw right eye
     turtle.penup()
-    turtle.goto(40, 20)
+    turtle.goto(40, 50)
     turtle.pendown()
     turtle.begin_fill()
     turtle.circle(20)
@@ -34,7 +36,7 @@ def draw_face():
 
     # Draw left pupil
     turtle.penup()
-    turtle.goto(-30, 30)
+    turtle.goto(-30, 60)
     turtle.pendown()
     turtle.fillcolor("black")
     turtle.begin_fill()
@@ -43,7 +45,7 @@ def draw_face():
 
     # Draw right pupil
     turtle.penup()
-    turtle.goto(50, 30)
+    turtle.goto(50, 60)
     turtle.pendown()
     turtle.begin_fill()
     turtle.circle(10)
@@ -51,14 +53,14 @@ def draw_face():
 
     # Draw nose
     turtle.penup()
-    turtle.goto(0, 0)
+    turtle.goto(0, 30)
     turtle.pendown()
     turtle.width(4)
-    turtle.goto(0, -20)
+    turtle.goto(0, 10)
 
     # Draw mouth
     turtle.penup()
-    turtle.goto(-40, -40)
+    turtle.goto(-40, -10)
     turtle.pendown()
     turtle.width(2)
     turtle.right(90)
@@ -66,10 +68,10 @@ def draw_face():
     turtle.penup()
 
     # Draw hair
-    turtle.goto(-100, 50)
+    turtle.goto(-100, 120)
     turtle.pendown()
     turtle.width(5)
-    turtle.goto(100, 50)
+    turtle.goto(100, 120)
     turtle.penup()
 
 def generate_face():
